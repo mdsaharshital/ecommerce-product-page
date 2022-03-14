@@ -43,3 +43,8 @@
   border: none;
   border-radius: 20px;
 }
+.card-image {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
