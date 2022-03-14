@@ -21,3 +21,25 @@
   padding: 3px 7px;
   border-radius: 7px;
 }
+.btn-default {
+  background-color: #fff;
+}
+.input-group {
+  width: unset;
+  flex-wrap: nowrap;
+}
+.form-control {
+  background-color: #f6f5fa;
+  border: none;
+  width: 65px;
+  border-radius: 10px !important;
+  font-weight: 700;
+  font-size: 20px;
+}
+.add-cart {
+  background-color: var(--Orange);
+  padding: 7px 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
