@@ -168,26 +168,35 @@
                 withstand everything the weather can offer.
               </p>
               <h1>
-                $<span>125.00</span><span class="ms-3 bg-offer">50%</span>
+                $<span id="product-price">125</span
+                ><span class="ms-3 bg-offer">50%</span>
               </h1>
               <p>
                 <span class="text-decoration-line-through text-secondary"
-                  >$250.00</span
+                  >$250</span
                 >
               </p>
               <div class="d-flex justify-content-start align-items-center">
                 <div class="input-group number-spinner w-50">
-                  <button id="case-minus" class="btn btn-default">
+                  <button
+                    onclick="minusClick()"
+                    id="product-minus"
+                    class="btn btn-default"
+                  >
                     <i class="fas fa-minus"></i>
                   </button>
                   <input
-                    id="case-number"
+                    id="product-number"
                     type="number"
                     min="0"
                     class="form-control text-center"
                     value="1"
                   />
-                  <button id="case-plus" class="btn btn-default">
+                  <button
+                    onclick="plusClick()"
+                    id="product-plus"
+                    class="btn btn-default"
+                  >
                     <i class="fas fa-plus"></i>
                   </button>
                 </div>
